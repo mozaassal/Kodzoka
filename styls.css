@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+position: relative;
+
+}
+body{
+    background-color: rgb(235, 230, 224);
+}
+.blue_bg{
+    max-width: 100%;
+}
+.kudzokanavbar{
+    width: 100px;
+    max-width: 100%;
+    max-width: 100%;
+
+}
+.NavBar{
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    max-width: 100%;
+}
+.bgnav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+.NavBar a{
+    position: relative;
+    bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: jenine;
+    margin: 20px;
+    display: inline-block;
+    color: #646161;
+}
+.NavBar a:after{
+    content: "";
+    position: absolute;
+    text-decoration: underline;
+    color: aliceblue;
+    height: 3px;
+    background-color: rgb(221, 68, 221);
+    width: 0%;
+    left: 0;
+    transition: 0.3s;
+    top: 20px;
+}
+.NavBar a:hover{
+    color: aliceblue;
+}
+.NavBar a:hover::after{
+    width: 100%;
+}
+.loginnav{
+position: relative;
+display: inline-block;
+left: 650px;
+border: white 13px solid;
+padding: 2px 30px;
+background-color: white;
+border-radius: 30px;
+font-size: 18px;
+font-family: jenine;
+text-decoration: none;
+color: #646161;
+bottom: 15px;
+}
+.loginnav:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.thenav{
+    display: inline-block;
+}
+.landing{
+    position: relative;
+    display: inline;
+    width: 600px;
+    bottom: 0;
+    left: 700px;
+    top: -700px;
+    right: 0;
+}
+.human{
+    position: relative;
+    display: inline;
+    right: 0;
+    width: 300px;
+    left: 220px;
+    bottom: 0;
+    top: -750px;
+}
+.clouds{
+    display: inline;
+    position: relative;
+    width: 430px;
+    left: -150px;
+    bottom: 0;
+    top: -650px;
+}
+.waves{
+    position: relative;
+    display: inline;
+    width: 1300px;
+    left: -280px;
+    bottom: 0;
+    top: -750px;
+}
+.TexTNav{
+    position: relative;
+    display: inline-block;
+    top: 230px;
+    right: 600px; 
+}
+.TexTNav h1{
+    width: 600px;
+    position: relative;
+    display: block;
+    font-family: jenine;
+    color: rgb(29, 184, 184);
+    font-size: 45px;
+}
+.nav1{
+    color: blueviolet;
+    font-size: 60px;
+    display: inline-block;
+}
+.TexTNav p{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    top: 10px;
+}
+.superfast{
+    display: inline-block;
+    position: relative;
+    top: 670px;
+    left: 180px;
+    width: 300px;
+
+}
+.superfast img{
+    width: 200px;
+}
+.superfast h1{
+    top: 240px;
+    font-size: 20px;
+    left: 0px;
+    font-family: jenine;
+}
+.superfast p{
+    position: relative;
+    font-size: 13px;
+    top: 250px;
+    right: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second_section{
+    display: inline-block;
+    position: absolute;
+}
+.second_section img{
+    width: 800px;
+    top: 680px;
+    right: 20px;
+}
+.time{
+    position: absolute;
+    display: inline-block;
+}
+.time img{
+    width: 200px;
+    top: 840px;
+    left: 240px;
+}
+.time h1{
+position: relative;
+top: 850px;
+font-family: jenine;
+font-size: 20px;
+left: 250px;
+}
+.time p{
+position: relative;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 13px;
+top: 860px;
+left: 200px;
+}
+.Discounts{
+    position: absolute;
+    display: inline-block;
+}
+.Discounts img{
+    width: 200px;
+    top: 1080px;
+    left: 580px;
+}
+.Discounts h1{
+font-family: jenine;
+font-size: 20px;
+top: 1090px;
+left: 640px;
+}
+.Discounts p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 13px;
+top: 1100px;
+left: 545px;
+}
+.whykudzoka{
+    font-family: jenine;
+    position: absolute;
+    top: 1050px;
+    width: 500px;
+    left: 30px;
+}
+.WhyChoose{
+    color: whitesmoke;
+font-size: 35px;
+left: 105px;
+bottom: 270px;
+max-width: 100%;
+}
+.nav2{
+font-size: 70px;
+}
+.bottombar{
+  top: 1200px; 
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+.fly{
+
+    top: 20px;
+    width: 500px;
+}
+.money{
+
+    left: 80px;
+    width: 200px;
+}
+.idk{
+    width: 200px;
+right: 50px;
+}
+.bottombar h1{
+    position: relative;
+    left: 330px;
+    font-size: 30px;
+    font-family: jenine;
+    bottom: 30px;
+}
+.bottombar p{
+   position: relative;
+   left: 390px;
+   display: inline-block;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+    position: relative;
+    top: 1050px;
+    height: 560px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.Footer{
+    width: 112%;
+    right: 30px;
+}
+.humans2{
+    position: absolute;
+    width: 700px;
+    top: 100px;
+    right: 10px;
+}
+.icons{
+    top: 825px;
+    left: 110px;
+    display: inline-block;
+    right: 0;
+
+}
+.apple{
+    
+    border-radius: 20px;
+    border: solid 10px white;
+    padding: 0 30px;
+    padding-left: 5px;
+    padding-right: 80px;
+    background: white;
+    display: inline-block;
+    right: 50px;
+}
+.play_store{
+    bottom: 0px;
+    left: -20px;
+    border-radius: 20px;
+    border: solid 10px white;
+    padding: 0 30px;
+    padding-left: 5px;
+    padding-right: 80px;
+    background: white;
+    display: inline-block;
+}
+.playstore{
+    font-family: jenine;
+    display: inline-block;
+    bottom: 22px;
+    right: 110px;
+
+}
+.appstore{
+    display: inline-block;
+    font-family: jenine;
+    bottom: 22px;
+    right: 353px;
+    
+}
+.instagram{
+    position: absolute;
+    display: inline-block;
+    bottom: -45px;
+    right: 430px;
+}
+.whatsapp{
+    position: absolute;
+    display: inline-block;
+    bottom: -45px;
+    right: 380px;
+}
+.facebook{
+    position: absolute;
+    display: inline-block;
+    bottom: -45px;
+    right: 345px;
+
+}
+.CoBar p{
+    font-family: jenine;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    color: white;
+    top: 930px;
+    margin: 0 20px;
+    right: 370px;
+
+}
